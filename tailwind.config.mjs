@@ -8,8 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#00318F",
+        secondary: "#000E29",
+      },
+      backgroundImage: {
+        "gradient-primary": "linear-gradient(to right, #00318F, #000E29)",
       },
     },
   },
