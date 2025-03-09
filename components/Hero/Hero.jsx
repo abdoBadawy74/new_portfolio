@@ -13,7 +13,6 @@ export default function Hero() {
             "JavaScript Developer",
             "React Developer",
             "Next.js Developer",
-            "UI/UX Designer",
             "Freelancer",
         ];
         let textIndex = 0;
