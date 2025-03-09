@@ -1,6 +1,7 @@
 "use client";
+import Image from 'next/image';
 import React, { useEffect } from 'react'
-import { HiCodeBracket } from "react-icons/hi2";
+import about from "../../assets/about.png";
 
 export default function Summary() {
     useEffect(() => {
@@ -35,7 +36,7 @@ export default function Summary() {
         <section id="summary" className="section-padding bg-white">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl font-bold mb-8 text-center fade-in">About Me</h2>
-                <div className="max-w-4xl mx-auto flex justify-center items-center ">
+                <div className="max-w-5xl mx-auto flex justify-between items-center flex-col md:flex-row">
                     <div>
                         <p className="text-lg mb-6 fade-in">
                             I am a passionate Front End Developer with expertise in creating responsive,
@@ -49,9 +50,9 @@ export default function Summary() {
                             clean, maintainable code and staying updated with the latest industry trends.
                         </p>
                     </div>
-                    <div className="justify-center items-center border rounded-full h-52 w-52 bg-primary ml-8 hidden md:flex fade-in">
-                        <HiCodeBracket className="text-9xl text-white w-52" />
-                    </div>
+
+                    <Image src={about} alt="About Me" className="w-96 h-96 rounded-lg slide-in-right" />
+
                 </div>
             </div>
         </section>
