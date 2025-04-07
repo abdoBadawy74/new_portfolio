@@ -14,11 +14,16 @@ export default function Home() {
       <Header />
       <Hero />
       <Summary />
-      <Services/>
+      <Services />
       <Projects />
       <Skills />
-      <Education/>
-      <Contact/>
+      <Education />
+      <Contact />
+      <footer class="bg-secondary text-white text-center py-6">
+        <div class="container mx-auto px-4">
+          <p> 2025 &copy; Abdulrahman Badawy. All Rights Reserved.</p>
+        </div>
+      </footer>
     </section>
   );
 }
