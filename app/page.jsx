@@ -1,3 +1,4 @@
+import Education from "@/components/Education/Education";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import Projects from "@/components/Projects/Projects";
@@ -15,6 +16,7 @@ export default function Home() {
       <Services/>
       <Projects />
       <Skills />
+      <Education/>
     </section>
   );
 }
