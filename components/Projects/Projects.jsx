@@ -2,13 +2,22 @@
 import { projects } from '@/app/Data/projects';
 import { useState } from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import Image from 'next/image';
 
 export default function Projects() {
     const [activeFilter, setActiveFilter] = useState('all');
+    const [filteredProjects, setFilteredProjects] = useState(projects);
 
     const handleFilterClick = (filter) => {
-        setActiveFilter(filter);
+        if (filter === 'all') {
+            const shuffledProjects = [...projects].sort(() => Math.random() - 0.5);
+            setActiveFilter('all');
+            setFilteredProjects(shuffledProjects);
+        } else {
+            setActiveFilter(filter);
+        }
     };
+
 
     return (
         <section id="projects" className="bg-white section-padding">
@@ -50,7 +59,7 @@ export default function Projects() {
 
 
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 md:grid-cols-2">
-                    {projects
+                    {filteredProjects
                         .filter(project => activeFilter === 'all' || project.dataTags.includes(activeFilter))
                         .slice(0, 6)
                         .map((project) => (
@@ -59,8 +68,8 @@ export default function Projects() {
                                 className="bg-gray-100 rounded-lg shadow-md hover:shadow-lg overflow-hidden project-item transition-shadow"
                                 style={{ transitionDelay: project.delay }}
                             >
-                                <div className="flex bg-gradient-primary h-48 justify-center text-white items-center">
-                                    <span className="text-3xl font-bold">{`Project ${project.id}`}</span>
+                                <div className="flex h-52 justify-center text-white items-center">
+                                    <Image src={project.projectImg} alt="Project Image" width={500} height={300} className="w-full h-full object-cover" />
                                 </div>
                                 <div className="p-6">
                                     <div className="flex justify-between items-center mb-4">

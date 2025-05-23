@@ -1,3 +1,31 @@
+import project1 from "../../assets/project1.png"
+import project2 from "../../assets/project2.png"
+import project3 from "../../assets/project3.png"
+import project4 from "../../assets/project4.png"
+import project5 from "../../assets/project5.png"
+import project6 from "../../assets/project6.png"
+import project7 from "../../assets/project7.png"
+import project8 from "../../assets/project8.png"
+import project9 from "../../assets/project9.png"
+import project10 from "../../assets/project10.png"
+import project11 from "../../assets/project11.png"
+import project12 from "../../assets/project12.png"
+import project13 from "../../assets/project13.png"
+import project14 from "../../assets/project14.png"
+import project15 from "../../assets/project15.png"
+import project16 from "../../assets/project16.png"
+import project17 from "../../assets/project17.png"
+import project18 from "../../assets/project18.png"
+import project19 from "../../assets/project19.png"
+import project20 from "../../assets/project20.png"
+import project21 from "../../assets/project21.png"
+import project22 from "../../assets/project22.png"
+import project23 from "../../assets/project23.png"
+import project24 from "../../assets/project24.png"
+import project25 from "../../assets/project25.png"
+import project26 from "../../assets/project26.png"
+import project27 from "../../assets/project27.png"
+
 export const projects = [
   {
     id: 1,
@@ -7,6 +35,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.1s",
+    projectImg: project1,
     githubLink: "https://github.com/abdoBadawy74/template1",
     liveDemoLink: "https://abdobadawy74.github.io/template1/",
   },
@@ -18,6 +47,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.2s",
+    projectImg: project2,
     githubLink: "https://github.com/abdoBadawy74/Template_2",
     liveDemoLink: "https://abdobadawy74.github.io/Template_2/",
   },
@@ -29,6 +59,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.3s",
+    projectImg: project3,
     githubLink: "https://github.com/abdoBadawy74/Template_4",
     liveDemoLink: "https://abdobadawy74.github.io/Template_4/",
   },
@@ -40,6 +71,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.4s",
+    projectImg: project4,
     githubLink: "https://github.com/abdoBadawy74/template5",
     liveDemoLink: "https://abdobadawy74.github.io/template5/",
   },
@@ -51,6 +83,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.5s",
+    projectImg: project5,
     githubLink: "https://github.com/abdoBadawy74/Template_6",
     liveDemoLink: "https://abdobadawy74.github.io/Template_6/",
   },
@@ -62,6 +95,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.6s",
+    projectImg: project6,
     githubLink: "https://github.com/abdoBadawy74/Template7",
     liveDemoLink: "https://abdobadawy74.github.io/Template7/",
   },
@@ -73,6 +107,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.7s",
+    projectImg: project7,
     githubLink: "https://github.com/abdoBadawy74/Template_8",
     liveDemoLink: "https://abdobadawy74.github.io/Template_8/",
   },
@@ -84,6 +119,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.8s",
+    projectImg: project8,
     githubLink: "https://github.com/abdoBadawy74/Template_9",
     liveDemoLink: "https://abdobadawy74.github.io/Template_9/",
   },
@@ -95,6 +131,7 @@ export const projects = [
     tags: ["HTML5", "CSS3"],
     dataTags: "html css",
     delay: "0.9s",
+    projectImg: project9,
     githubLink: "https://github.com/abdoBadawy74/Template_10",
     liveDemoLink: "https://abdobadawy74.github.io/Template_10/",
   },
@@ -106,6 +143,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript"],
     dataTags: "js",
     delay: "1s",
+    projectImg: project10,
     githubLink: "https://github.com/abdoBadawy74/beni-seuf-remians",
     liveDemoLink: "https://abdobadawy74.github.io/beni-seuf-remians/",
   },
@@ -117,6 +155,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript"],
     dataTags: "js",
     delay: "1.1s",
+    projectImg: project11,
     githubLink:
       "https://github.com/abdoBadawy74/Currency-Converter-App-in-JavaScript",
     liveDemoLink:
@@ -130,6 +169,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript"],
     dataTags: "js",
     delay: "1.2s",
+    projectImg: project12,
     githubLink: "https://github.com/abdoBadawy74/buildCalculator",
     liveDemoLink: "https://abdobadawy74.github.io/buildCalculator/",
   },
@@ -141,6 +181,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript"],
     dataTags: "js",
     delay: "1.3s",
+    projectImg: project13,
     githubLink: "https://github.com/abdoBadawy74/AI-images-generator",
     liveDemoLink: "https://abdobadawy74.github.io/AI-images-generator/",
   },
@@ -152,6 +193,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript"],
     dataTags: "js",
     delay: "1.4s",
+    projectImg: project14,
     githubLink: "https://github.com/abdoBadawy74/photo-editor",
     liveDemoLink: "https://abdobadawy74.github.io/photo-editor/",
   },
@@ -163,6 +205,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript"],
     dataTags: "js",
     delay: "1.5s",
+    projectImg: project15,
     githubLink: "https://github.com/abdoBadawy74/XO-Game-JS",
     liveDemoLink: "https://abdobadawy74.github.io/XO-Game-JS/",
   },
@@ -174,6 +217,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript"],
     dataTags: "js",
     delay: "1.6s",
+    projectImg: project16,
     githubLink: "https://github.com/abdoBadawy74/crud-system",
     liveDemoLink: "https://abdobadawy74.github.io/crud-system/",
   },
@@ -185,6 +229,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
     dataTags: "react",
     delay: "1.7s",
+    projectImg: project17,
     githubLink: "https://github.com/TahaKhaledSaad/EduCaring",
     liveDemoLink: "https://educarring.com/",
   },
@@ -196,6 +241,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript"],
     dataTags: "js",
     delay: "1.8s",
+    projectImg: project18,
     githubLink: "https://github.com/abdoBadawy74/Software-House",
     liveDemoLink: "https://abdobadawy74.github.io/Software-House/",
   },
@@ -207,6 +253,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
     dataTags: "react",
     delay: "1.9s",
+    projectImg: project19,
     githubLink: "https://github.com/abdoBadawy74/eduCaring-Dashboard",
     liveDemoLink: "https://educarring.com/dashboard",
   },
@@ -218,6 +265,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
     dataTags: "react",
     delay: "2s",
+    projectImg: project20,
     githubLink: "https://github.com/abdoBadawy74/Tarteel-Academy",
     liveDemoLink: "https://www.tarteelalquranapp.com/",
   },
@@ -229,6 +277,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
     dataTags: "react",
     delay: "2.1s",
+    projectImg: project21,
     githubLink: "https://github.com/abdoBadawy74/project4-NAG",
     liveDemoLink: "https://project4-nag.vercel.app/",
   },
@@ -240,6 +289,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
     dataTags: "react",
     delay: "2.2s",
+    projectImg: project22,
     githubLink: "https://github.com/abdoBadawy74/CTIT",
     liveDemoLink: "https://ctit23.vercel.app/",
   },
@@ -251,6 +301,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "TypeScript", "Next.js"],
     dataTags: "next",
     delay: "2.3s",
+    projectImg: project23,
     githubLink: "https://github.com/abdoBadawy74/Dashboard",
     liveDemoLink: "https://dashboard-abdos-projects-9ab4571d.vercel.app/",
   },
@@ -262,6 +313,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "TypeScript", "Next.js"],
     dataTags: "next",
     delay: "2.4s",
+    projectImg: project24,
     githubLink: "https://github.com/abdoBadawy74/cloud-host",
     liveDemoLink: "https://cloud-hosting-project-course.vercel.app/",
   },
@@ -273,6 +325,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
     dataTags: "react",
     delay: "2.5s",
+    projectImg: project25,
     githubLink: "https://github.com/abdoBadawy74/Trip",
     liveDemoLink: "https://trip-swart.vercel.app/",
   },
@@ -284,6 +337,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
     dataTags: "react",
     delay: "2.6s",
+    projectImg: project26,
     githubLink: "https://github.com/abdoBadawy74/Admin-Dashboard",
     liveDemoLink: "https://adminprofgroup.vercel.app/login",
   },
@@ -295,6 +349,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "TypeScript", "React"],
     dataTags: "react",
     delay: "2.7s",
+    projectImg: project27,
     githubLink: "https://github.com/abdoBadawy74/ElHassan-ELearning",
     liveDemoLink: "https://elhassan-arabic.com/",
   },
